@@ -11,9 +11,14 @@ Nous ne sommes pas affiliés au site Internet OSDEV, mais au serveur Discord Fra
 <a href="https://discord.gg/3XjkM6q"><img src="https://discordapp.com/api/guilds/746454130448531546/widget.png?style=banner3" alt="Discord Banner 3"/></a>
 
 # L'arboressence 
+
 ## arm
+
 tout ce qui touche l'architecture arm en particulier (pour l'instant il n'y a rien dedans)
+
 ## x64
 le 64bit, ici c'est pour le 64bit en particuler
-## misc
-ici c'est pour tout ce qui ne rentre pas en rapport avec l'architecture (x86 et x64), les systèmes de fichiers, les ports com, les drivers ou tout autre 
+
+## autre
+
+Ici c'est pour tout ce qui ne rentre pas en rapport avec l'architecture (x86 et x64), les systèmes de fichiers, les ports com, les drivers ou tout autre 

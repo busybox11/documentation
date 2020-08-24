@@ -1,17 +1,8 @@
-# l'article est en cours d'écriture, cela veut dire qu'il n'est pas encore fini
-## les articles en cours d'écritures peuvent avoir des fautes, problèmes ou autres...
-# Les ports sérial (ou ports com)
-## table de contenu
+<center>
+<b>Attention!</b> Article est en cours d'écriture
+</center>
 
-
-
-
-[introducion](#introduction)
-
-[Initialisation des ports com](#Initialisation)
-
-# introduction
-
+# Introduction
 
 un port com était utilisé comme un port de communication (comme l'est l'usb aujourd'hui).
 les ports com même si ils sont obselètes sont encore énormément utilisé pour le dévelopement d'un système d'exploitation. Ils sont très simple à implémenter et sont très utile pour le débuggage, car dans presque toutes les machines virtuelles on peut avoir la sortie d'un port com dans un fichier, dans un terminal ou autre. Ils sont aussi très utiles car on peut les initialiser très tôt et donc avoir des informations de debuggage très utiles. 
@@ -46,9 +37,6 @@ pour commencer il y a quelque valeurs constantes pour chaque port com
 puis il y a l'offset, chaque offset a certaines particularité 
 (c'est L'ID DU PORT + OFFSET)
 
-
-
-
 | offset      | action        |
 |-------------|---------------|
 | 0         | Le port data du com, il est utilisé pour envoyer  et recevoir des données, si le bit DLAB = 1 alors c'est pour mettre le diviseur du Baud   (les bits inférieurs)        |   
@@ -60,9 +48,6 @@ puis il y a l'offset, chaque offset a certaines particularité
 | 6        | Le status de Modem |
 | 7        | Le scratch register | 
 
-
-
-
 Pour mettre DLAB il faut :
 mettre le port comme ceci :
 LE PORT + 3  = 0x80 = 128 = 0b10000000
@@ -73,9 +58,9 @@ outb(COM_PORT + 3, 0x80);
 pour le désaciver il faut juste remettre le bit 8 à 0
 
 
-__les baud__
+## Les baud
 
-Le port com com se met à jour 115200 fois par seconde, pour controller la vitesse il faut mettre en place un diviseur 
+Le port com se met à jour 115200 fois par seconde, pour controller la vitesse il faut mettre en place un diviseur 
 pour mettre le diviseur il faut alors déjà activer le DLAB
 
 puis ensuite passer la valeur par l'offset 0 (les bits inférieurs) et 1 (les bits supérieurs) 
@@ -87,9 +72,7 @@ outb(COM_PORT + 0, 5); // les bits les plus petit
 outb(COM_PORT + 1, 0); // les bits les plus haut
 ```
 
-
-__la taille de données__
-
+## La taille de données
 
 on peut mettre la taille des données envoyés au port com par update, 
 elle peut aller de 5 bit à 8 bit
@@ -111,10 +94,10 @@ outb(COM_PORT + 3, 0x3); // déactiver le DLAB + mettre la taille de donnée à 
 
 ```
 
-## en cours d'écritures 
-## si vous voulez aller plus loin
-même si c'est en anglais ce document explique beaucoup plus en profondeur les ports com : 
-https://www.sci.muni.cz/docs/pc/serport.txt
+## Ressources
 
-## personnes ayant participé à l'article 
-Supercip971
+- https://www.sci.muni.cz/docs/pc/serport.txt
+
+## Redacteurs
+
+- Supercip971
