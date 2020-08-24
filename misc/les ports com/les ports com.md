@@ -2,16 +2,17 @@
 ## les articles en cours d'écritures peuvent avoir des fautes, problèmes ou autres...
 # Les ports sérial (ou ports com)
 ## table de contenu
-<a href="#introduction"> Introduction </a>
-
-<a href="#initialisation">  Initialisation des ports com  </a>
 
 
 
 
-<div id="introduction"> 
-    <h2 > -- Introduction </h2>
-</div>
+[introducion](#introduction)
+
+[Initialisation des ports com](#Initialisation)
+
+# introduction
+
+
 un port com était utilisé comme un port de communication (comme l'est l'usb aujourd'hui).
 les ports com même si ils sont obselètes sont encore énormément utilisé pour le dévelopement d'un système d'exploitation. Ils sont très simple à implémenter et sont très utile pour le débuggage, car dans presque toutes les machines virtuelles on peut avoir la sortie d'un port com dans un fichier, dans un terminal ou autre. Ils sont aussi très utiles car on peut les initialiser très tôt et donc avoir des informations de debuggage très utiles. 
 Les ports série peuvent envoyer des données et en recevoir, et vous pouvez faire un terminal externe juste avec un ports série. 
@@ -28,9 +29,7 @@ soit généralement un byte
 
 la limite dépend aussi de la distence du racord avec le fil, un fil long à une capacité moindre qu'un fil court 
 
-<div id="initialisation"> 
-    <h2 > -- Initialisation des ports com </h2>
-</div>
+# Initialisation
 
 chaque port à besoin d'être initialisé avant son utilisation
 
