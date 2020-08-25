@@ -15,8 +15,8 @@
 # Commits / Pull requests
 Vous devez suivre les règles suivantes pour la rédaction des noms de commits / pull requests.
 
-### [type de la modification] ce que vous avez fait/rajouter
-Les types peuvent être :
+### `type de la modification: ce que vous avez fait / rajouteé`
+Les types de modification peuvent être :
 - correction
 - x64
 - arm 
