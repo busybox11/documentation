@@ -1,4 +1,5 @@
-# Avant toute contribution, la lecture de ce domument est obligatoire.
+# Contribuer au wiki
+## Avant toute contribution, la lecture de ce domument est obligatoire.
 - Evitez de faire des fautes d'orthographes.
 - Nous utilisons comme langage principal le C ou le C++.
 - Merci de ne pas copier-coller d'autres articles.
