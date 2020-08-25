@@ -1,36 +1,34 @@
-# avant toute contribution il faut lire ce document
+# Avant toute contribution, la lecture de ce domument est obligatoire.
+- Evitez de faire des fautes d'orthographes.
+- Nous utilisons comme langage principal le C ou le C++.
+- Merci de ne pas copier-coller d'autres articles.
+- Nous refusons le 32bit car ce n'est plus d'actualité.
 
-évitez de faire des fautes d'orthographes, 
-nous utilisons comme langage principal le C ou le C++
-merci de ne pas copier d'autres article,
-nous refusons le 32bit car ce n'est plus d'actualité 
-# merci de garder une structure tel quel : 
+# La structure suivante est de rigueur pour l'ensemble des documents :
+- En haut du document, vous retrouvez des liens / une table qui regroupe toute les parties du document,
+- Vous retrouverez ensuite si nécéssaire les parties à configurer,
+- Vous retrouverez pour finir le contenu du document.
 
-en haut du document vous retrouvez des liens / une table qui regroupe toute les parties du document 
-ensuite vous avez (optionnellement) les choses qui doivent déjà être setup,
-puis vous pouvez faire votre "article"
+- A la fin, vous devez rajouter votre pseudo github comme ceci :
+### Régidé par [pseudo du créateur], contribution.s par [pseudos des contributeurs]
 
-à la fin vous devez rajouter votre pseudo github comme ceci :
-# écrit par
-personne qui a fait le fichier initial
-personne qui ont contribué 
+# Commits / Pull requests
+Vous devez suivre les règles suivantes pour la rédaction des noms de commits / pull requests.
 
-# les commit/pull request
-vous devez faire comme ceci pour le nom du commit / pull request : 
-
-### [type] ce que vous avez fait/rajouter
-dans type il peut y avoir : 
+### [type de la modification] ce que vous avez fait/rajouter
+Les types peuvent être :
 - correction
 - x64
 - arm 
-- misc (dans misc on compte par exemple les ports com, les systèmes de fichiers ou tout autre chose qui ne rentre pas dans les catégories d'architecture)
+- misc (on y compte par exemple les ports COM, les systèmes de fichiers ou tout autre chose qui ne rentre pas dans les catégories d'architecture)
 - exemple (ajout d'exemple)
 - autre (pour autre chose qui n'y entre pas)
 
-quand vous faites des pull request, vous évitez d'inclure plus d'1 commit
+Il est recommandé de ne pas faire plus d'un Commit par Pull Resquest.
 
-# pour les exemple 
+# Marche à suivre pour les exemples
+- Suivez la structure des documents
+- Appliquez-vous sur votre code (lisibilité, commentaires, vérification)
+- N'importe quel langage peut être utilisé
 
-programmez juste bien, faite comme les articles et rajoutez votre nom à la fin, et ceux qui ont contribué aussi 
-vous devez vérifier votre code
-tout language est accepté pour les exemple 
+### Rédigé par @Supercip971, contribution par @busybox11
